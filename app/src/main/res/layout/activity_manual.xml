@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".ManualActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:fontFamily="@font/sspbold"
+
+        android:gravity="bottom"
+        android:text="Manual Guide."
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="184dp"
+            android:layout_height="193dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginBottom="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/oval" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="164dp"
+            android:layout_height="121dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.479"
+            app:srcCompat="@drawable/manual" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/seoulnamsanb2"
+        android:text="Your Mate는 시력 기능이\n 저하된 분들을 위한 음성 서비스입니다.\n메인 화면의 하늘색 버튼을 누르시면,\n 카메라를 통해 주변 상황을 탐색하고\n 글자를 인식하는 등 찍힌 이미지를 분석해드리고,\n\n 최하단의 곤색 버튼을 누르시면\n 단어 검색 및 실시간 순위와\n 해당 헤드라인을 알려드리는\n 검색 서비스를 제공해드립니다.\n 모든 서비스는 음성으로 제공됩니다. "
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="goToMain"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/home" />
+
+
+</LinearLayout>

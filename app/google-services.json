@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179807684981",
+    "firebase_url": "https://yourmate-bbc4e.firebaseio.com",
+    "project_id": "yourmate-bbc4e",
+    "storage_bucket": "yourmate-bbc4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179807684981:android:9f93d5eac2cb0ddb",
+        "android_client_info": {
+          "package_name": "com.example.ds.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179807684981-2cnvd7rqljvaq6n3dbjvr15cd51r5a1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ds.myapplication",
+            "certificate_hash": "95cdb8c432b3361888e213c60c6db0d632b49e40"
+          }
+        },
+        {
+          "client_id": "179807684981-58cmmgd2vh04ro9f1m8k9bukq42c0qg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnXWCRcSTCai2Eh-O9hgHDDClZmpQKUv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179807684981-58cmmgd2vh04ro9f1m8k9bukq42c0qg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D3E48"
+    android:orientation="vertical"
+    android:onClick="said"
+    tools:context=".SayActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="#2D3E48"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="Your mate."
+        android:textAlignment="center"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="39dp"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="#F2B705"
+        android:fontFamily="@font/sspblackit"
+        android:textStyle="bold"
+        android:text="MANUAL"
+        android:onClick="SpeakManual"
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="@color/colorResult"
+        android:fontFamily="@font/sspblackit"
+        android:textStyle="bold"
+        android:text="Image Analysis"
+        android:onClick="goToImageButton"
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="#0C154A"
+        android:fontFamily="@font/sspblackit"
+        android:textStyle="bold"
+        android:onClick="goToSearchButton"
+        android:text="Search Service"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#2D3E48"
+        android:fontFamily="@font/seoulnamsanb2"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Copyright ⓒ by 봄길." />
+
+
+</LinearLayout>

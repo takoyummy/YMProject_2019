@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorResult"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorMustard"
+        android:text="Result"
+        android:fontFamily="@font/sspbold"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Your mate가 검색한 내용입니다." />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#FFFFFF"
+        android:text="검색 결과가 표시됩니다."
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="하단의 스피커를 터치하시면 한번 더 들으실 수 있습니다.\n 쉐이킹 하시면 초기 화면으로 돌아갑니다." />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorResult"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:onClick="speakAgain"
+                android:src="@drawable/megaphone" />
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
